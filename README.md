@@ -7,8 +7,8 @@
 
 The pipeline consists of two primary stages:
 
-1.  **Unsupervised Anomaly Detection (VAE)**:
-    *   Utilizes a **Variational Autoencoder (VAE)** to learn the latent representation of background noise.
+1.  **Unsupervised Anomaly Detection (AE)**:
+    *   Utilizes a **Autoencoder (AE)** to learn the latent representation of background noise.
     *   Detects potential gravitational wave events as anomalies (high reconstruction loss) when they deviate from the learned background distribution.
     *   Includes Latent Space analysis via PCA and Amplitude Spectral Density (ASD) validation.
 
