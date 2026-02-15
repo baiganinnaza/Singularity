@@ -20,11 +20,11 @@ images/ # If these are generated output images
 *.jpg
 
 # Models
-models/
-*.h5
-*.keras
-*.pt
-*.pth
+# models/
+# *.h5
+# *.keras
+# *.pt
+# *.pth
 
 # VS Code
 .vscode/
