@@ -14,10 +14,6 @@ venv/
 # Data and Generated Files
 data/
 classifier_dataset/
-/kaggle/ # References in code suggested kaggle paths, ensuring we don't pick up local simulating folders if any
-images/ # If these are generated output images
-*.png
-*.jpg
 
 # Models
 # models/
